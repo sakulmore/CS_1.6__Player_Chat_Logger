@@ -1,4 +1,4 @@
-# CS 1.6 - Melee Damage Changer
+# CS 1.6 - Player Chat Logger
 The plugin logs player chats and writes them into the file `Chats.txt` in the `/cstrike/addons/amxmodx/data` folder.
 
 # Installation
@@ -9,7 +9,7 @@ The plugin logs player chats and writes them into the file `Chats.txt` in the `/
 - Module `cstrike_amxx_i386.so`
 
 # Format
-[<team>] <nickname>(<SteamID>) : <message>
+[\<team\>] \<nickname\>(\<SteamID\>) : \<message\>
 
 # Support
 If you having any issues please feel free to write your issue to the issue section :) .
