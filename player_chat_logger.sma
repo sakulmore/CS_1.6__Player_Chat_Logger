@@ -66,7 +66,7 @@ LogChat(id, const message[], bool:teamchat)
 
     switch (cs_get_user_team(id))
     {
-        case CS_TEAM_T: copy(teamName, charsmax(teamName), "TERRORIST");
+        case CS_TEAM_T: copy(teamName, charsmax(teamName), "T");
         case CS_TEAM_CT: copy(teamName, charsmax(teamName), "CT");
         case CS_TEAM_SPECTATOR: copy(teamName, charsmax(teamName), "SPECTATOR");
         default: copy(teamName, charsmax(teamName), "UNASSIGNED");
