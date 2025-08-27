@@ -3,6 +3,7 @@ The plugin logs player chats and writes them into the file `Chats.txt` in the `/
 
 # Installation
 - Just download the plugin and upload the .amxx file to your plugins folder on your server (or you can of course compile the .sma file and then upload the compilated .amxx file to your server).
+- Then write the plugin name (with .amxx) to `/cstrike/addons/amxmodx/configs/plugins.ini`.
 
 # Requirements
 - AMX Mod X 1.10
